@@ -1,0 +1,37 @@
+.page {
+  background-color: var(--shade-color);
+  padding-inline: var(--content-padding-inline);
+  padding-block: var(--section-top-padding);
+  align-items: center;
+  justify-content: center;
+  hyphens: auto;
+}
+
+@media (width > 20em) {
+  .page {
+    hyphens: none;
+  }
+}
+
+.container {
+  max-width: 50rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--medium-gap);
+}
+
+.page p {
+  font-family: var(--fancy-font-family);
+  font-size: var(--step-up-2);
+  line-height: 1.2;
+  letter-spacing: -0.035rem;
+}
+
+.basket {
+  width: 11.875rem;
+  height: auto;
+  max-width: 100%;
+}

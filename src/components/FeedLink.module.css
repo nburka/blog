@@ -1,0 +1,21 @@
+a.feedLink {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  font-size: var(--step-down-2);
+  padding-right: 0.25rem;
+}
+
+.logo {
+  width: 2rem;
+}
+
+a.feedLink:focus-visible path {
+  fill: #fff;
+}
+
+a.feedLink:hover path,
+a.feedLink:active path {
+  fill: var(--alt-orange);
+}

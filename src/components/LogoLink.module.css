@@ -1,0 +1,17 @@
+a.link {
+  font-family: var(--fancy-font-family);
+  font-size: var(--step-up-1);
+  letter-spacing: -0.04rem;
+  line-height: 1;
+  font-weight: 500;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: var(--small-gap);
+  text-decoration: none;
+}
+
+a.link svg {
+  width: auto;
+  height: var(--nav-logo-height);
+}

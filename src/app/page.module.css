@@ -1,0 +1,60 @@
+.logo {
+  width: var(--slice-logo-width);
+}
+
+.header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: var(--medium-gap);
+  align-items: center;
+  text-align: center;
+  padding-top: var(--section-top-padding);
+}
+
+.header h1 {
+  letter-spacing: -0.085rem;
+}
+
+.header p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: var(--medium-gap);
+  align-items: center;
+  max-width: 41.75rem;
+}
+
+.container a {
+  font-weight: 700;
+}
+
+@media (width >= 51em) {
+  .feedLink {
+    position: absolute;
+    top: 1.75rem;
+    right: 0;
+    min-height: var(--nav-logo-height);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.posts {
+  list-style-type: none;
+  margin: 0;
+  padding: 5rem 0 0;
+  display: grid;
+  grid-template-columns: var(--primary-grid);
+  flex-direction: column;
+  align-items: center;
+}
+
+.posts li {
+  grid-column: 3 / 4;
+  width: 100%;
+}

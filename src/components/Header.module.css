@@ -1,0 +1,7 @@
+.header {
+  padding-bottom: 1rem;
+  padding-inline: var(--content-padding-inline);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  text-wrap: balance;
+}

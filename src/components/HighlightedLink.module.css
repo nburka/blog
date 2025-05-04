@@ -1,0 +1,47 @@
+a.highlight {
+  text-decoration: none;
+  background: url('../assets/highlight.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 7px;
+  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  background-position: bottom;
+  color: var(--alt-orange);
+  font-weight: 400;
+}
+
+a.highlight.bold {
+  font-weight: 700;
+}
+
+a.highlight:visited {
+  color: var(--alt-orange);
+}
+
+a.highlight:active {
+  color: var(--text-color);
+  background-image: url('../assets/highlight.svg');
+}
+
+a.highlight:focus-visible {
+  color: white;
+  background-color: var(--alt-orange);
+  text-decoration-color: var(--alt-orange);
+  outline-color: var(--alt-orange);
+  outline-style: solid;
+  outline-width: 0.125rem;
+}
+
+a.highlight:hover {
+  color: var(--alt-orange);
+  background-color: color-mix(in srgb, var(--alt-orange) 20%, transparent);
+  outline-color: color-mix(in srgb, var(--alt-orange) 20%, transparent);
+  outline-style: solid;
+  outline-width: 0.125rem;
+}
+
+@media (forced-colors: active) {
+  a.highlight {
+    text-decoration: underline;
+  }
+}
