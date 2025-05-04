@@ -13,16 +13,6 @@ const nextConfig = {
         search: ''
       }
     ]
-  },
-  async rewrites() {
-    return {
-      beforeFiles: [
-      ]
-    };
-  },
-  async redirects() {
-    return [
-    ];
   }
 };
 
