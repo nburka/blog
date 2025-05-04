@@ -12,7 +12,7 @@ export function getRssXml(appBase: string, posts: Post[]) {
     id: blogUrl,
     link: blogUrl,
     language: 'en',
-    image: `${appBase}/rss-image.png`,
+    image: `${appBase}/rss-image.jpg`,
     favicon: `${appBase}/favicon.ico`,
     copyright: 'Nick Burka 2025',
     updated,
