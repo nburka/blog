@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   description:
     'A blog of travel photos, thoughts, and other stuff from Nick Burka.',
   openGraph: {
-    images: ['https://silverorange.com/og-image.jpg'],
+    images: ['https://www.nickburka.me/og-image.jpg'],
     title: 'Nick Burka’s Blog'
   },
   twitter: {
